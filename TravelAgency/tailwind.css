@@ -1,0 +1,79 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --black: rgba(46, 46, 46, 1);
+  --gray: rgba(171, 171, 171, 1);
+  --orange: rgba(247, 122, 64, 1);
+  --shadow: 0px 24px 50px 0px rgba(0, 0, 0, 0.1);
+  --text-medium-1-font-family: "Poppins", Helvetica;
+  --text-medium-1-font-size: 18px;
+  --text-medium-1-font-style: normal;
+  --text-medium-1-font-weight: 500;
+  --text-medium-1-letter-spacing: 0px;
+  --text-medium-1-line-height: normal;
+  --text-text-1-font-family: "Poppins", Helvetica;
+  --text-text-1-font-size: 24px;
+  --text-text-1-font-style: normal;
+  --text-text-1-font-weight: 400;
+  --text-text-1-letter-spacing: 0px;
+  --text-text-1-line-height: 40px;
+  --text-text-2-font-family: "Poppins", Helvetica;
+  --text-text-2-font-size: 18px;
+  --text-text-2-font-style: normal;
+  --text-text-2-font-weight: 400;
+  --text-text-2-letter-spacing: 0px;
+  --text-text-2-line-height: normal;
+  --text-text-bold-1-font-family: "Poppins", Helvetica;
+  --text-text-bold-1-font-size: 24px;
+  --text-text-bold-1-font-style: normal;
+  --text-text-bold-1-font-weight: 700;
+  --text-text-bold-1-letter-spacing: 0px;
+  --text-text-bold-1-line-height: normal;
+  --text-text-bold-2-font-family: "Poppins", Helvetica;
+  --text-text-bold-2-font-size: 18px;
+  --text-text-bold-2-font-style: normal;
+  --text-text-bold-2-font-weight: 700;
+  --text-text-bold-2-letter-spacing: 0px;
+  --text-text-bold-2-line-height: normal;
+  --title-heading-1-font-family: "Bebas Neue", Helvetica;
+  --title-heading-1-font-size: 120px;
+  --title-heading-1-font-style: normal;
+  --title-heading-1-font-weight: 400;
+  --title-heading-1-letter-spacing: 0px;
+  --title-heading-1-line-height: 128px;
+  --white: rgba(255, 255, 255, 1);
+}
+
+@media (max-width: 768px) {
+  :root {
+    --text-medium-1-font-size: 14px;
+    --text-text-1-font-size: 18px;
+    --title-heading-1-font-size: 48px;
+  }
+
+  .w-full {
+    max-width: 100%;
+  }
+
+  .h-auto {
+    height: auto;
+  }
+
+  .absolute {
+    position: relative;
+  }
+
+  .top-0, .left-0, .right-0, .bottom-0 {
+    top: unset;
+    left: unset;
+    right: unset;
+    bottom: unset;
+  }
+}
